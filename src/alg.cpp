@@ -9,7 +9,7 @@ bool checkPrime(uint64_t value) {
             return false;
         }
     }
-    return  true;
+    return true;
 }
 
 uint64_t nPrime(uint64_t n) {
