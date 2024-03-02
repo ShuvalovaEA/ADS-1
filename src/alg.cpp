@@ -33,11 +33,11 @@ uint64_t nextPrime(uint64_t value) {
 }
 
 uint64_t sumPrime(uint64_t hbound) {
-    uint64_t sum = 0;
+    uint64_t summ = 0;
     for (uint64_t i = 2; i < hbound; i++) {
         if (checkPrime(i)) {
-            sum = sum + i;
+            summ = summ + i;
         }
     }
-    return sum;
+    return summ;
 }
